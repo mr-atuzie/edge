@@ -1,9 +1,19 @@
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import News from "./components/News";
+import Projects from "./components/Projects";
+import Reviews from "./components/Reviews";
+import Specialization from "./components/Specialization";
 
 function App() {
   return (
     <div>
-      <Footer />
+      <Specialization />
+      <Projects />
+      <Reviews />
+      <News />
+      <Contact />
+      {/* <Footer /> */}
     </div>
   );
 }

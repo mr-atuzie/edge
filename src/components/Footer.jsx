@@ -10,9 +10,9 @@ import {
 
 const Footer = () => {
   return (
-    <div className=" py-10">
-      <div className=" w-[80%] mx-auto">
-        <div className=" flex justify-between py-10 ">
+    <div className=" h-[60vh] py-10">
+      <div className=" w-[90%] lg:w-[80%] mx-auto">
+        <div className=" flex flex-col gap-14 lg:gap-0 lg:flex-row justify-between py-10 ">
           <div>
             <div className=" flex items-center gap-2">
               <div className=" text-orange-600">
@@ -29,8 +29,10 @@ const Footer = () => {
             </div>
 
             <p className=" text-gray-500 text-sm leading-7 mt-4">
-              We are committed to providing the highest level <br />
-              of service and expertise to our clients. our team <br />
+              We are committed to providing the highest level{" "}
+              <br className=" hidden lg:block" />
+              of service and expertise to our clients. our team{" "}
+              <br className=" hidden lg:block" />
               is dedicated to helping you achieve your goals
             </p>
           </div>
@@ -51,13 +53,13 @@ const Footer = () => {
             </h1>
 
             <div className="flex gap-3 items-center">
-              <div className=" bg-orange-600 text-white h-[40px] w-[40px] flex items-center justify-center rounded-full">
+              <div className=" bg-orange-500 text-white h-[40px] w-[40px] flex items-center justify-center rounded-full">
                 <FaFacebookF size={25} />
               </div>
-              <div className=" bg-orange-600 text-white h-[40px] w-[40px] flex items-center justify-center rounded-full">
+              <div className=" bg-orange-500 text-white h-[40px] w-[40px] flex items-center justify-center rounded-full">
                 <FaInstagram size={25} />
               </div>
-              <div className=" bg-orange-600 text-white h-[40px] w-[40px] flex items-center justify-center rounded-full">
+              <div className=" bg-orange-500 text-white h-[40px] w-[40px] flex items-center justify-center rounded-full">
                 <FaWhatsapp size={25} />
               </div>
             </div>
@@ -65,7 +67,7 @@ const Footer = () => {
             <h1 className=" font-semibold   uppercase mt-6 mb-2">contact us</h1>
             <div>
               <div className="flex gap-3 items-center mb-3">
-                <div className=" text-orange-600">
+                <div className=" text-orange-500">
                   <FaEnvelope size={20} />
                 </div>
                 <p className=" text-sm text-gray-700">
@@ -74,7 +76,7 @@ const Footer = () => {
               </div>
 
               <div className="flex gap-3 items-center mb-2">
-                <div className=" text-orange-600">
+                <div className=" text-orange-500">
                   <HiPhone size={20} />
                 </div>
                 <p className=" text-sm text-gray-700">(234) 456-7890</p>
@@ -90,14 +92,14 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className=" w-[350px] border p-4 border-gray-300 rounded placeholder:text-gray-500 placeholder:font-medium"
+              className=" w-full lg:w-[350px] border p-4 border-gray-300 rounded placeholder:text-gray-500 placeholder:font-medium"
             />
-            <button className="flex gap-2 items-center mt-4 bg-orange-600 text-white px-6 py-3 uppercase">
+            <button className="flex gap-2 items-center mt-4 bg-orange-500 text-white px-6 py-3 uppercase">
               send
             </button>
           </div>
         </div>
-        <div className=" text-gray-500 text-sm  text-center  p-3 capitalize">
+        <div className=" text-gray-500 text-xs lg:text-sm  text-center  p-3 capitalize">
           copyright EngineeringEdge. 2023 all right reserved
         </div>
       </div>
