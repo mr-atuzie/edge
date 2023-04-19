@@ -10,7 +10,7 @@ const Reviews = () => {
     },
 
     {
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rmEdGIWaAdWC3ZHX0l4KOyO3SsqmBsKhzQ&usqp=CAU",
+      img: "https://expertphotography.b-cdn.net/wp-content/uploads/2019/12/headshot-1024x682.jpg",
       title: "Devon Lane",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, odio, libero explicabo repellendus facere, eius recusandae laborum hic fugit itaque enim dolores. Natus deleniti, officiis eveniet doloribus molestiae ea minus!",
     },
@@ -58,8 +58,12 @@ const Reviews = () => {
               {reviews.map((blog) => {
                 return (
                   <div className=" bg-white p-6 rounded">
-                    <div className=" flex justify-between items-center">
-                      <img src={blog.img} alt="" className=" h-[60px] " />
+                    <div className=" flex  justify-between items-center">
+                      <img
+                        src={blog.img}
+                        alt=""
+                        className=" h-[60px] w-[60px] object-cover "
+                      />
 
                       <div className=" flex gap-2 text-orange-500">
                         <BsStarFill size={20} />

@@ -19,10 +19,9 @@ const Contact = () => {
               Get in touch with us
             </h1>
             <p className=" text-gray-100 max-w-lg">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Accusamus fugit aliquid doloribus ipsa, excepturi alias temporibus
-              quasi consequuntur provident soluta ducimus numquam molestias
-              laudantium unde iste, vel laborum quo sapiente?
+              Thank you for considering EngineeringEdge for your construction,
+              engineering or energy needs. Our team is commmitted to providing
+              the highest level of service and expertise to our clients
             </p>
           </div>
         </div>
