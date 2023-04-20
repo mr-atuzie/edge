@@ -1,5 +1,5 @@
 import React from "react";
-import { BsStarFill, BsStar } from "react-icons/bs";
+import { BsStarFill, BsStar, BsArrowUpRight } from "react-icons/bs";
 
 const Reviews = () => {
   const reviews = [
@@ -31,7 +31,24 @@ const Reviews = () => {
             alt=""
           />
 
-          <div className=" bg-black/50 w-full h-full absolute top-0"></div>
+          <div className=" bg-black/70 w-full h-full absolute top-0">
+            <div className="b w-full h-full flex flex-col justify-end p-6">
+              <h1 className=" text-2xl lg:text-4xl text-white font-semibold capitalize tracking-wide ">
+                make your dream project come true with
+              </h1>
+              <h2 className="text-xl my-3 lg:text-3xl text-orange-500  font-semibold">
+                EngineeringEdge
+              </h2>
+              <div>
+                <button className=" flex items-center gap-2 py-3 px-7 font-semibold bg-orange-500 text-white">
+                  Discover More
+                  <div>
+                    <BsArrowUpRight size={20} />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
         <div className=" bg-orange-500">
           <div className="w-[90%] lg:w-[80%] mx-auto py-10">

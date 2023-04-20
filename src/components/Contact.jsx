@@ -1,5 +1,4 @@
 import React from "react";
-import { BsArrowUpRight } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -10,15 +9,15 @@ const Contact = () => {
         alt=""
       />
       <div className=" w-full h-full  z-10 absolute top-0 bg-black/70">
-        <div className="w-[90%] lg:w-[80%]   h-full  mx-auto flex flex-col lg:flex-row items-center justify-between">
-          <div className="text-center lg:text-start lg:w-[45%]">
+        <div className="w-[90%] lg:w-[80%]   h-full  mx-auto flex items-center justify-between">
+          <div className="">
             <h4 className=" uppercase font-medium text-gray-100 mb-1  text-sm">
               contact us
             </h4>
-            <h1 className=" tracking-wide capitalize text-3xl lg:text-5xl mb-3  text-white font-semibold">
+            <h1 className=" tracking-wide capitalize text-3xl lg:text-6xl mb-3  text-white font-semibold">
               Get in touch with us
             </h1>
-            <p className=" text-gray-100 max-w-lg">
+            <p className=" text-gray-100 max-w-xl">
               Thank you for considering EngineeringEdge for your construction,
               engineering or energy needs. Our team is commmitted to providing
               the highest level of service and expertise to our clients

@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
 
         <div className="flex items-center justify-center mt-8">
-          <button className=" flex items-center gap-2 py-3 px-7 font-medium border border-orange-500 bg-white text-orange-500">
+          <button className=" flex items-center gap-2 py-3 px-7 font-semibold border-2 border-orange-500 bg-white text-orange-500">
             See more projects
             <div>
               <BsArrowUpRight size={20} />
