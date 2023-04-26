@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { IoCloseOutline, IoLogoCapacitor } from "react-icons/io5";
 import { HiOutlineBars3 } from "react-icons/hi2";
-import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
