@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <div className=" h-[60vh] lg:h-screen relative">
-      <Navbar />
       <img
         className="w-full h-full"
         src="https://media.istockphoto.com/id/1273337098/photo/aerial-shot-of-a-new-constructions-development-site-with-high-tower-cranes-building-real.jpg?s=612x612&w=0&k=20&c=DQmHvLXo9-6QD-tYlNZ0i3kibCBr5WWiYB1ktwKT7pY="

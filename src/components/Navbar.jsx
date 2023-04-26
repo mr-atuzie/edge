@@ -13,7 +13,7 @@ const Navbar = () => {
     { id: 5, link: "/contact-us", name: "contact" },
   ];
   return (
-    <nav className=" absolute top-0 w-full z-50   text-gray-50">
+    <nav className=" bg-black w-full z-50   text-gray-50">
       <div className=" w-[90%] lg:w-[80%] flex justify-between items-center  mx-auto py-4">
         <div className=" flex items-center gap-2">
           <div className=" text-orange-600">

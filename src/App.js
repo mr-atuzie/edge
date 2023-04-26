@@ -6,10 +6,12 @@ import News from "./components/News";
 import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
 import Specialization from "./components/Specialization";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <About />
       <Specialization />
