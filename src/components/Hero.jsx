@@ -1,9 +1,11 @@
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
+import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
     <div className=" h-[60vh] lg:h-screen relative">
+      <Navbar />
       <img
         className="w-full h-full"
         src="https://media.istockphoto.com/id/1273337098/photo/aerial-shot-of-a-new-constructions-development-site-with-high-tower-cranes-building-real.jpg?s=612x612&w=0&k=20&c=DQmHvLXo9-6QD-tYlNZ0i3kibCBr5WWiYB1ktwKT7pY="
@@ -12,11 +14,11 @@ const Hero = () => {
 
       <div className=" absolute top-0 w-full h-full   bg-black/90">
         <div className="w-full h-full flex items-center px-6 flex-col justify-center ">
-          <h1 className=" text-center text-4xl lg:text-6xl text-white font-semibold uppercase">
-            your partner in transformative <br /> engineering construction
+          <h1 className=" text-center text-3xl lg:text-6xl mt-2 text-white font-semibold uppercase">
+            your partner in transformating <br /> engineering construction
           </h1>
 
-          <p className=" text-gray-100 text-center mt-6">
+          <p className=" text-gray-100 text-center mt-4">
             We pride ourselves on our ability to communicate cleary and
             collaborate <br className=" hidden lg:block" /> effectively with our
             clients, ensuring that their goals and vision are always at the{" "}

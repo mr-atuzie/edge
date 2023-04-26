@@ -32,7 +32,7 @@ const Navbar = () => {
             return (
               <li
                 key={id}
-                className=" text-gray-200 capitalize px-4 cursor-pointer hover:text-orange-500  hover:scale-105 duration-200"
+                className="  text-gray-200 capitalize px-4 cursor-pointer hover:text-orange-500  hover:scale-105 duration-200"
               >
                 {name}
               </li>
