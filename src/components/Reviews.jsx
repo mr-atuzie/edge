@@ -33,14 +33,14 @@ const Reviews = () => {
 
           <div className=" bg-black/70 w-full h-full absolute top-0">
             <div className="b w-full h-full flex flex-col justify-end p-6">
-              <h1 className=" text-2xl lg:text-4xl text-white font-semibold capitalize tracking-wide ">
+              <h1 className=" text-lg lg:text-4xl text-white font-semibold capitalize tracking-wide ">
                 make your dream project come true with
               </h1>
-              <h2 className="text-xl my-3 lg:text-3xl text-orange-500  font-semibold">
+              <h2 className="text-lg mb-1 lg:my-3 lg:text-3xl text-orange-500  font-semibold">
                 EngineeringEdge
               </h2>
               <div>
-                <button className=" flex items-center gap-2 py-3 px-7 font-semibold bg-orange-500 text-white">
+                <button className=" flex items-center gap-2 py-3 px-5 lg:px-7 font-semibold bg-orange-500 text-white">
                   Discover More
                   <div>
                     <BsArrowUpRight size={20} />

@@ -7,13 +7,13 @@ const About = () => {
       <div className=" w-[90%] lg:w-[80%] mx-auto flex flex-col lg:flex-row items-center gap-10">
         <div className="flex ">
           <img
-            className=" h-[500px]"
+            className=" h-[300px] lg:h-[500px]"
             src="https://images.pexels.com/photos/2209529/pexels-photo-2209529.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
-          <div className=" border-t-4  border-r-4  border-b-4 border-orange-500 flex justify-center items-center pr-5 py-5">
+          <div className=" border-t-4  border-r-4  border-b-4 border-orange-500 flex justify-center items-center pr-3 lg:pr-5 py-3 lg:py-5">
             <img
-              className=" h-[400px]"
+              className=" h-[200px] lg:h-[400px]"
               src="https://images.pexels.com/photos/7108780/pexels-photo-7108780.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
             />

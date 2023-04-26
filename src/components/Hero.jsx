@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className=" h-[60vh] lg:h-[90vh] relative">
+    <div className=" h-[60vh] lg:h-screen relative">
       <Navbar />
 
       <img
