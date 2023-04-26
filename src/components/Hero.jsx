@@ -5,8 +5,6 @@ import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <div className=" h-[60vh] lg:h-screen relative">
-      <Navbar />
-
       <img
         className="w-full h-full"
         src="https://media.istockphoto.com/id/1273337098/photo/aerial-shot-of-a-new-constructions-development-site-with-high-tower-cranes-building-real.jpg?s=612x612&w=0&k=20&c=DQmHvLXo9-6QD-tYlNZ0i3kibCBr5WWiYB1ktwKT7pY="
@@ -26,7 +24,7 @@ const Hero = () => {
             <br className=" hidden lg:block" /> forefront of our work.
           </p>
 
-          <div className="flex items-center justify-center mt-8">
+          <div className="flex items-center justify-center my-8">
             <button className=" flex items-center gap-2 py-3 px-7 font-semibold bg-orange-500 text-white">
               Discover More
               <div>
@@ -35,7 +33,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="hidden lg:grid grid-cols-6 gap-3  absolute bottom-4 ">
+        <div className="hidden lg:grid grid-cols-6 gap-3  absolute bottom-2 ">
           <img
             className=" h-[200px]  object-cover "
             src="https://proest.com/wp-content/uploads/2022/11/Building-Construction-Process-From-Start-To-Finish.jpg"
