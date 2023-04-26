@@ -10,7 +10,6 @@ import Specialization from "./components/Specialization";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Hero />
       <About />
       <Specialization />

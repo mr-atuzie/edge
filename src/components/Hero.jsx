@@ -15,7 +15,7 @@ const Hero = () => {
       <div className=" absolute top-0 w-full h-full   bg-black/90">
         <div className="w-full h-full flex items-center px-6 flex-col justify-center ">
           <h1 className=" text-center text-3xl lg:text-6xl mt-2 text-white font-semibold uppercase">
-            your partner in transformating <br /> engineering construction
+            your partner in transformative <br /> engineering construction
           </h1>
 
           <p className=" text-gray-100 text-center mt-4">
