@@ -1,6 +1,5 @@
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
-import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
