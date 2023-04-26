@@ -37,32 +37,32 @@ const Hero = () => {
         </div>
         <div className="hidden lg:grid grid-cols-6 gap-3  absolute bottom-4 ">
           <img
-            className=" h-[200px] "
+            className=" h-[200px]  object-cover "
             src="https://proest.com/wp-content/uploads/2022/11/Building-Construction-Process-From-Start-To-Finish.jpg"
             alt=""
           />
           <img
-            className=" h-[200px]"
+            className=" h-[200px]  object-cover "
             src="https://newsletter.blogs.wesleyan.edu/files/2023/03/DSC_1065-scaled-e1678816059108-1280x675.jpg"
             alt=""
           />
           <img
-            className="  h-[200px]"
+            className="  h-[200px]  object-cover "
             src="https://www.build-review.com/wp-content/uploads/2021/06/Minimizing-Disruption-to-Construction-Projects.jpg"
             alt=""
           />
           <img
-            className=" h-[200px] "
+            className=" h-[200px]  object-cover "
             src="https://www.devicemagic.com/wp-content/uploads/2020/01/AdobeStock_190729433-1-2.jpg"
             alt=""
           />
           <img
-            className=" h-[200px]"
+            className=" h-[200px]  object-cover "
             src="https://www.designingbuildings.co.uk/w/images/0/08/Gravel-pit-g267ef5258_1280.jpg"
             alt=""
           />
           <img
-            className="  h-[200px]"
+            className="  h-[200px] object-cover"
             src="https://capeeng.co.za/wp-content/uploads/2021/08/worker-with-contruction-iron-lines-building-foundation-construction-worker-scaled.jpg"
             alt=""
           />
